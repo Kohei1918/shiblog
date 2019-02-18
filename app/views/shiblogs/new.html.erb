@@ -1,0 +1,23 @@
+
+<%= form_with model: @blog do |form| %>
+
+      <h3>
+        ブログ投稿フォーム
+      </h3>
+      <div>
+
+        <label>Name:</label>
+        <input placeholder="Name" type="text" id="name">
+      </div>
+
+      <div>
+        <label>Message:</label>
+        <textarea placeholder="Message" id="message"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="SENT">
+      </div>
+    </form>
+  </div>
+
+<% end %>

@@ -1,0 +1,2 @@
+module ShiblogsHelper
+end

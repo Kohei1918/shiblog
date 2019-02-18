@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html>
+     <title>Shiblog</title>
+  <style type="text/css" href="./style.css"></style>
+   <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+    <body>
+
+       <nav class="#ff9800 orange">
+    <div class="nav-wrapper">
+      <a href="shiblogs" class="brand-logo">Shiblog</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="users/sign_in">ログイン</a></li>
+        <li><a href="badges.html">ログアウト</a></li>
+        <li><a class="post"href="/shiblogs/new">投稿</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <script type="text/javascript" src="./app.js"></script>
+
+    <%= yield %>
+
+    </body>
+  </html>
